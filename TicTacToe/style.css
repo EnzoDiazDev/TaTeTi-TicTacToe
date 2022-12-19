@@ -1,0 +1,40 @@
+body{
+  background:url("Fondo.jpg");
+}
+.container {
+  text-decoration: rgb(255, 255, 255);
+  background-position: center;
+  width: 50%;
+  text-align: center;
+  font-family:fantasy;
+  background-color: aqua;
+  
+}
+.game-container {
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 52px auto;
+}
+.game-cell {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+.X{
+  background-color:tomato;
+}
+.game-notification{
+  background-color:rgba(255, 255, 255, 0);
+}
+.game-restart{
+  background-position: center;
+  border-radius: none;
+  width: 200px;
+  height: 92px;
+}
